@@ -1,2 +1,2 @@
-# types-statsd
-Python types for the statsd
+# statsd-stubs
+Typing stubs for statsd: https://github.com/jsocol/pystatsd
