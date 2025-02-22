@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "statsd-stubs"
-version = "4.0.1.post0"
+version = "4.0.1.20240223"
 description = "Typing stubs for statsd"
 authors = ["Or Levi <orlevi128@gmail.com>"]
 license = "MIT"
@@ -9,7 +9,7 @@ packages = [
 ]
 keywords = ["statsd", "types", "stubs"]
 
-repository = "https://github.com/orlevii/realm"
+repository = "https://github.com/orlevii/statsd-stubs"
 homepage = "https://github.com/orlevii/statsd-stubs"
 readme = "README.md"
 
