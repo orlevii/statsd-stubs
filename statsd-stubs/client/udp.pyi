@@ -2,7 +2,7 @@ from .base import PipelineBase as PipelineBase
 from .base import StatsClientBase as StatsClientBase
 
 class Pipeline(PipelineBase):
-    def __init__(self, client) -> None: ...
+    def __init__(self, client: StatsClientBase) -> None: ...
 
 class StatsClient(StatsClientBase):
     def __init__(
