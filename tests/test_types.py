@@ -9,9 +9,9 @@ def test_client_types() -> None:
         port=1234,
         prefix="my_prefix",
     )
-    client.incr(stat="incr", count=10)
-    client.decr(stat="incr", count=2)
-    client.timing(stat="timing", delta=10.5)
+    client.incr(stat="incr", count=10, rate=0.1)
+    client.decr(stat="incr", count=2, rate=1.0)
+    client.timing(stat="timing", delta=10.5, rate=0.2)
     client.timing(stat="timing", delta=timedelta(seconds=2))
     client.set("set", 2, 1)
 
